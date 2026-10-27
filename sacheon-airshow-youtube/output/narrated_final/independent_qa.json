@@ -1,0 +1,101 @@
+{
+  "status": "independent_checks_passed",
+  "file": "/workspace/gallery/sacheon-airshow-youtube/output/narrated_final/sacheon_trailer_junho_60s_1080p_24fps_FINAL.mp4",
+  "container_duration": 60.0,
+  "video_duration": 60.0,
+  "audio_duration": 60.0,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": "24/1",
+  "frames": 1440,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "audio_sample_rate": "48000",
+  "audio_channels": 2,
+  "preserved_snapshot_files": 59,
+  "preserved_files_changed": [],
+  "voice_offset_seconds": 3.0,
+  "decoded_source_samples": 2586750,
+  "decoded_source_duration": 53.890625,
+  "voice_entire_end_seconds": 56.890625,
+  "normalized_voice_sample_count_matches_source": true,
+  "voice_stem_is_full_normalized_source_at_exact_offset": true,
+  "source_to_amplitude_processed_voice_correlation": 0.993691463413245,
+  "aac_early_middle_last_speech_correlation_checks": [
+    {
+      "source_interval": [
+        2.1,
+        4.8
+      ],
+      "correlation": 0.978761126102668,
+      "lag_samples": 0,
+      "lag_ms": 0.0
+    },
+    {
+      "source_interval": [
+        24,
+        26.5
+      ],
+      "correlation": 0.9630535006095817,
+      "lag_samples": 0,
+      "lag_ms": 0.0
+    },
+    {
+      "source_interval": [
+        51.5,
+        53.5
+      ],
+      "correlation": 0.9424691879901654,
+      "lag_samples": 0,
+      "lag_ms": 0.0
+    }
+  ],
+  "audio_peak_dbfs": -1.2064967155456543,
+  "encoded_audio_loudness": {
+    "integrated_lufs": -16.02,
+    "true_peak_dbtp": -1.21,
+    "lra": 5.5
+  },
+  "notes": [
+    "Supplied voice retained throughout, amplitude-only gain/limiting; no time or pitch conversion in code.",
+    "PCM raw decoder can expose AAC trailing padding; track presentation duration is exactly60.000s.",
+    "ASR/VAD subtitle review is not a human phoneme-by-phoneme listening certification."
+  ],
+  "independent_visual_review": {
+    "checked_frames_seconds": [
+      20,
+      28,
+      57.5
+    ],
+    "korean_glyphs": "correct",
+    "lower_center_captions": "readable; white with outline; no clipping",
+    "ending_character_head_and_shoes": "fully visible",
+    "ending_title_and_photo_credit": "visible",
+    "old_TEMP_label": "not present"
+  },
+  "mixed_audio_asr_comparison": {
+    "method": "Same local multilingual ASR on original versus final mixed AAC; content unchanged except small model recognition variations",
+    "blocks": [
+      {
+        "source_offset": 0,
+        "normalized_transcript_similarity": 0.9882352941176471,
+        "source_text": "2036년 저는 전투기 조종석에 앉아 하늘을 바라봅니다. 아직은 상상이에요. 제 꿈이 더 선명해진 건 2026-40,000 에어슈에서 였죠. 블랙이 글스가 태극 문양을 그리고 KT1과 T50이 날아올랐어요.",
+        "mixed_text": "2036년 저는 전투기 조종석에 앉아 하늘을 바라봅니다. 아직은 상상이에요. 제 꿈이 더 선명해진 건 2026-40,000 에어슈에서 였죠. 블랙이 글스가 태극 문연을 그리고 KT1과 T50이 날아올랐어요."
+      },
+      {
+        "source_offset": 18.1,
+        "normalized_transcript_similarity": 0.9886363636363636,
+        "source_text": "그중 제 눈을 사로잡은 건 KF21 보람회 우리나라가 주도에 개발한 초음속 전투기로 국산 AESA 레이더가 먼 곳의 표적을 탐지해요 1600여 차례에 개발 비행시험을 거쳐 올해 9월 첫 양산기가 공군에 인도됐죠",
+        "mixed_text": "그중 제 눈을 사로잡은 건 KF21 보람에 우리나라가 주도에 개발한 초음속 전투기로 국산 AESA 레이더가 먼 곳의 표적을 탐지해요 1600여 차례에 개발 비행 시험을 거쳐 올해 9월 첫 양산기가 공군에 인도됐죠"
+      },
+      {
+        "source_offset": 36.1,
+        "normalized_transcript_similarity": 1.0,
+        "source_text": "앞으로는 지상 목표에 대응하는 능력을 넓히고 무인기와 함께 인물을 수행하는 미래도 연구 중이래요. 비행기를 만드는 건 기술이지만 그 기술을 앞으로 이끌어갈 건 사람일 거예요. 10년 뒤 저는 어떤 하늘을 날고 있을까요?",
+        "mixed_text": "앞으로는 지상목표에 대응하는 능력을 넓히고 무인기와 함께 인물을 수행하는 미래도 연구중이래요. 비행기를 만드는 건 기술이지만 그 기술을 앞으로 이끌어갈 건 사람일 거예요. 10년 뒤 저는 어떤 하늘을 날고 있을까요?"
+      }
+    ]
+  }
+}

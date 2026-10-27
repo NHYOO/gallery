@@ -1,0 +1,47 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Voice,Noto Sans KR,43,&H00FFFFFF,&H000000FF,&H00140D07,&H90000000,0,0,0,0,100,100,0,0,1,3,1,2,120,120,110,1
+Style: Title,Noto Sans KR,46,&H00F7F2EA,&H000000FF,&H0020180B,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,122,120,158,1
+Style: Disclosure,Noto Sans KR,25,&H00D8DDDC,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,9,120,120,65,1
+Style: Credit,Noto Sans KR,25,&H00D8DDDC,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,7,120,120,65,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.00,0:01:00.00,Credit,,0,0,0,,AI 내레이션 · 준호
+Dialogue: 0,0:00:03.00,0:00:11.20,Disclosure,,0,0,0,,AI 연출 · 상상 속2036
+Dialogue: 0,0:00:03.15,0:00:06.20,Title,,0,0,0,,{\fad(160,180)}2036 · 상상 속 조종석
+Dialogue: 0,0:00:11.20,0:00:21.45,Disclosure,,0,0,0,,실제 취재 사진·AJP YOO NA-HYUN
+Dialogue: 0,0:00:11.35,0:00:14.40,Title,,0,0,0,,{\fad(160,180)}2026 · 사천에어쇼
+Dialogue: 0,0:00:21.45,0:00:25.79,Disclosure,,0,0,0,,KF-21 설명 그래픽·자료사진 없음
+Dialogue: 0,0:00:25.79,0:00:33.00,Disclosure,,0,0,0,,KF-21 설명 그래픽·자료사진 없음
+Dialogue: 0,0:00:33.00,0:00:39.58,Disclosure,,0,0,0,,KF-21 설명 그래픽·자료사진 없음
+Dialogue: 0,0:00:39.58,0:00:47.08,Disclosure,,0,0,0,,미래 기술 구상·개념 그래픽
+Dialogue: 0,0:00:47.08,0:00:53.16,Disclosure,,0,0,0,,실제 취재 사진·AJP YOO NA-HYUN
+Dialogue: 0,0:00:47.23,0:00:50.28,Title,,0,0,0,,{\fad(160,180)}하늘을 준비하는 사람들
+Dialogue: 0,0:00:53.16,0:01:00.00,Disclosure,,0,0,0,,캐릭터 일러스트·상상 속 화자
+Dialogue: 0,0:00:03.00,0:00:04.27,Voice,,0,0,0,,2036년.
+Dialogue: 0,0:00:04.97,0:00:08.34,Voice,,0,0,0,,저는 전투기 조종석에 앉아 하늘을 바라봅니다.
+Dialogue: 0,0:00:08.98,0:00:10.56,Voice,,0,0,0,,아직은 상상이에요.
+Dialogue: 0,0:00:11.21,0:00:12.91,Voice,,0,0,0,,제 꿈이 더 선명해진 건
+Dialogue: 0,0:00:13.02,0:00:15.43,Voice,,0,0,0,,2026 사천에어쇼에서였죠.
+Dialogue: 0,0:00:16.20,0:00:18.30,Voice,,0,0,0,,블랙이글스가 태극 문양을 그리고
+Dialogue: 0,0:00:18.48,0:00:20.84,Voice,,0,0,0,,KT-1과 T-50이 날아올랐어요.
+Dialogue: 0,0:00:21.44,0:00:23.30,Voice,,0,0,0,,그중 제 눈을 사로잡은 건
+Dialogue: 0,0:00:23.42,0:00:25.09,Voice,,0,0,0,,KF-21 보라매.
+Dialogue: 0,0:00:25.80,0:00:28.42,Voice,,0,0,0,,우리나라가 주도해 개발한 초음속 전투기로,
+Dialogue: 0,0:00:28.72,0:00:32.37,Voice,,0,0,0,,국산 AESA 레이더가 먼 곳의 표적을 탐지해요.
+Dialogue: 0,0:00:33.02,0:00:35.57,Voice,,0,0,0,,1,600여 차례의 개발 비행시험을 거쳐
+Dialogue: 0,0:00:35.78,0:00:38.84,Voice,,0,0,0,,올해 9월 첫 양산기가 공군에 인도됐죠.
+Dialogue: 0,0:00:39.59,0:00:42.68,Voice,,0,0,0,,앞으로는 지상 목표에 대응하는 능력을 넓히고,
+Dialogue: 0,0:00:42.92,0:00:46.36,Voice,,0,0,0,,무인기와 함께 임무를 수행하는 미래도 연구 중이래요.
+Dialogue: 0,0:00:47.09,0:00:49.18,Voice,,0,0,0,,비행기를 만드는 건 기술이지만,
+Dialogue: 0,0:00:49.40,0:00:52.43,Voice,,0,0,0,,그 기술을 앞으로 이끌어갈 건 사람일 거예요.
+Dialogue: 0,0:00:53.16,0:00:53.94,Voice,,0,0,0,,10년 뒤,
+Dialogue: 0,0:00:54.40,0:00:56.77,Voice,,0,0,0,,저는 어떤 하늘을 날고 있을까요?

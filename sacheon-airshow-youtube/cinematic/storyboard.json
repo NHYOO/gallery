@@ -1,0 +1,190 @@
+{
+  "title": "10년 뒤, 나는 어떤 하늘을 날고 있을까?",
+  "subtitle": "2026 SACHEON AIRSHOW | 하늘을 설계하다",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transition_seconds": 0.65,
+  "scenes": [
+    {
+      "id": "01",
+      "duration": 7,
+      "media": "assets/01_future_cockpit.png",
+      "title": "2036 · 상상 속 조종석",
+      "label": "AI 연출 · 상상 속2036",
+      "disclosure": "AI 연출 · 상상 속2036",
+      "narration_cues": [
+        {
+          "start": 0.6,
+          "end": 6.2,
+          "text": "2036년, 상상 속 저는 조종석에 앉아 있어요."
+        }
+      ],
+      "direction": "원본 narrator_character.png의 청소년과 동일한 외형으로 생성한 미래 조종석 정지 이미지. 미세한 전진 카메라 움직임과 HUD를 적용한다. 실제 비행 영상이나 현재의 KF-21 조종석으로 보이게 하지 않고 AI 상상 장면 표시를 유지한다.",
+      "narration": "2036년, 상상 속 저는 조종석에 앉아 있어요.",
+      "narration_cues_timebase": "scene_local_seconds"
+    },
+    {
+      "id": "02",
+      "duration": 11,
+      "media": [
+        "../assets/26_KakaoTalk_Photo_2026-10-26-15-33-45 005.jpg",
+        "../assets/26_KakaoTalk_Photo_2026-10-26-15-33-49 009.jpg",
+        "../assets/26_KakaoTalk_Photo_2026-10-26-15-33-55 013.jpg",
+        "../assets/26_KakaoTalk_Photo_2026-10-26-15-34-15 010.jpg"
+      ],
+      "title": "2026 · 사천에어쇼",
+      "label": "실제 취재 사진·AJP YOO NA-HYUN",
+      "disclosure": "실제 취재 사진·AJP YOO NA-HYUN",
+      "narration_cues": [
+        {
+          "start": 0.5,
+          "end": 5.3,
+          "text": "제 꿈이 선명해진 건, 사천에어쇼에서였어요."
+        },
+        {
+          "start": 5.6,
+          "end": 10.5,
+          "text": "블랙이글스가 펼친 하늘을 아직도 기억해요."
+        }
+      ],
+      "direction": "실제 블랙이글스 편대와 연막 사진 네 장을 교차 편집한다. 넓은 구도를 보존하며 서로 다른 완만한 줌과 패닝을 적용한다. 실제 취재 사진 표시를 유지하고 사진 속 기체나 편대와 연막 형태를 생성·변형하지 않는다.",
+      "narration": "제 꿈이 선명해진 건, 사천에어쇼에서였어요. 블랙이글스가 펼친 하늘을 아직도 기억해요.",
+      "narration_cues_timebase": "scene_local_seconds"
+    },
+    {
+      "id": "03",
+      "duration": 5,
+      "media": "assets/graphics/03_kf21.png",
+      "entrance_transition": "fadeblack",
+      "title": "KF-21 · 보라매",
+      "label": "KF-21 설명 그래픽·자료사진 없음",
+      "disclosure": "KF-21 설명 그래픽·자료사진 없음",
+      "narration_cues": [
+        {
+          "start": 0.3,
+          "end": 4.7,
+          "text": "제가 더 알고 싶어진 전투기는 케이에프 이십일."
+        }
+      ],
+      "direction": "타이포그래피와 추상적 설계선으로 KF-21을 소개한다. 제공 취재 사진에 KF-21이 없음을 항상 표시한다. 다른 기종 사진을 KF-21로 대신 쓰거나 정확한 기체 형상을 임의로 합성하지 않는다.",
+      "narration": "제가 더 알고 싶어진 전투기는 케이에프 이십일.",
+      "narration_cues_timebase": "scene_local_seconds"
+    },
+    {
+      "id": "04",
+      "duration": 9,
+      "media": "assets/graphics/04_features.png",
+      "title": "초음속 전투기 · 국산 AESA 레이더",
+      "label": "KF-21 설명 그래픽·자료사진 없음",
+      "disclosure": "KF-21 설명 그래픽·자료사진 없음",
+      "narration_cues": [
+        {
+          "start": 0.3,
+          "end": 4.1,
+          "text": "우리나라가 주도해 개발한 초음속 전투기예요."
+        },
+        {
+          "start": 4.4,
+          "end": 8.7,
+          "text": "에이사 레이더는 전파로 멀리 있는 표적을 찾아요."
+        }
+      ],
+      "direction": "추상 레이더와 전파 아이콘으로 초음속 전투기와 AESA 레이더의 역할을 설명한다. 실제 레이더 화면·탐지 성능·기밀 조종석을 재현하는 것으로 표현하지 않는다.",
+      "narration": "우리나라가 주도해 개발한 초음속 전투기예요. 에이사 레이더는 전파로 멀리 있는 표적을 찾아요.",
+      "narration_cues_timebase": "scene_local_seconds"
+    },
+    {
+      "id": "05",
+      "duration": 9,
+      "media": "assets/graphics/05_timeline.png",
+      "title": "2015 개발 착수 → 2022 첫 비행",
+      "label": "KF-21 설명 그래픽·자료사진 없음",
+      "disclosure": "KF-21 설명 그래픽·자료사진 없음",
+      "narration_cues": [
+        {
+          "start": 0.3,
+          "end": 4.2,
+          "text": "2015년 개발을 시작해, 설계가 현실이 됐죠."
+        },
+        {
+          "start": 4.5,
+          "end": 8.7,
+          "text": "2022년 첫 비행이 새로운 가능성을 열었어요."
+        }
+      ],
+      "direction": "2015 개발 착수, 2022 첫 비행 두 이정표만 표시한 타임라인. 검증하지 않은 2026 개발 완료·1600회 시험비행·양산기 인도 시점과 수량은 표시하지 않는다.",
+      "narration": "2015년 개발을 시작해, 설계가 현실이 됐죠. 2022년 첫 비행이 새로운 가능성을 열었어요.",
+      "narration_cues_timebase": "scene_local_seconds"
+    },
+    {
+      "id": "06",
+      "duration": 10,
+      "media": "assets/graphics/06_future.png",
+      "entrance_transition": "fadeblack",
+      "title": "함께 나는 미래를 상상하다",
+      "label": "미래 기술 구상·개념 그래픽",
+      "disclosure": "미래 기술 구상·개념 그래픽",
+      "narration_cues": [
+        {
+          "start": 0.4,
+          "end": 4.8,
+          "text": "앞으로는 무인기와 함께 나는 하늘도 꿈꿔요."
+        },
+        {
+          "start": 5.1,
+          "end": 9.5,
+          "text": "아직은 미래 구상이지만, 더 넓은 도전이겠죠."
+        }
+      ],
+      "direction": "추상 노드와 연결선으로 유무인 협력에 관한 미래 구상을 보여준다. 실제 편대비행 사진이나 이미 실전 배치된 KF-21 기능으로 오인하지 않도록 미래 개념 표시를 유지한다.",
+      "narration": "앞으로는 무인기와 함께 나는 하늘도 꿈꿔요. 아직은 미래 구상이지만, 더 넓은 도전이겠죠.",
+      "narration_cues_timebase": "scene_local_seconds"
+    },
+    {
+      "id": "07",
+      "duration": 5,
+      "media": "../assets/26_KakaoTalk_Photo_2026-10-26-15-33-42 001.jpg",
+      "title": "하늘을 준비하는 사람들",
+      "label": "실제 취재 사진·AJP YOO NA-HYUN",
+      "disclosure": "실제 취재 사진·AJP YOO NA-HYUN",
+      "narration_cues": [
+        {
+          "start": 0.25,
+          "end": 4.75,
+          "text": "하늘을 준비하는 사람들 곁에 저도 서고 싶어요."
+        }
+      ],
+      "direction": "현장에서 촬영한 조종사 단체사진을 넓게 보여준다. 실제 사진 속 사람을 연구자 또는 중학생 화자라고 지칭하지 않는다. 부드러운 후진 움직임으로 꿈을 미래와 연결한다.",
+      "narration": "하늘을 준비하는 사람들 곁에 저도 서고 싶어요.",
+      "narration_cues_timebase": "scene_local_seconds"
+    },
+    {
+      "id": "08",
+      "duration": 4,
+      "media": "../assets/narrator_character.png",
+      "title": "2026 사천에어쇼 · 하늘을 설계하다",
+      "end_title": "2026 SACHEON AIRSHOW",
+      "label": "조종사를 꿈꾸는 중학생",
+      "disclosure": "캐릭터 일러스트·상상 속 화자",
+      "photo_credit": "PHOTO BY AJP YOO NA-HYUN",
+      "narration_cues": [
+        {
+          "start": 0.1,
+          "end": 3.55,
+          "text": "10년 뒤, 저는 어떤 하늘을 날고 있을까요?"
+        }
+      ],
+      "direction": "업로드된 narrator_character.png 원본을 그대로 참조해 얼굴·머리·의상을 일관되게 유지한다. 어두운 여백과 함께 엔딩 타이틀 및 PHOTO BY AJP YOO NA-HYUN 크레딧을 표시하고 마지막에 페이드아웃한다.",
+      "narration": "10년 뒤, 저는 어떤 하늘을 날고 있을까요?",
+      "narration_cues_timebase": "scene_local_seconds"
+    }
+  ],
+  "duration": 60,
+  "photo_credit": "PHOTO BY AJP YOO NA-HYUN",
+  "narrator_character": "../assets/narrator_character.png",
+  "narration_status": "not_recorded",
+  "subtitle_timing_basis": "provisional_scene_local_seconds_without_voice",
+  "narration_note": "현재 임시본에는 내레이션이 없으며 narration_cues는 무음성 자막용 타이밍 가안입니다. 실제 음성 추가 시 음성에서 추출한 타임스탬프로 교체합니다.",
+  "factual_note": "제공 사진에서 KF-21을 확인하지 못했으므로 KF-21 설명은 자료사진 없는 개념 그래픽으로 분리합니다. 2015년 개발 착수와 2022년 첫 비행 외에 개발 완료·누적 시험비행 수·양산기 인도 시점을 단정하지 않습니다."
+}

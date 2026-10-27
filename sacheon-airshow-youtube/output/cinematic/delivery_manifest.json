@@ -1,0 +1,66 @@
+{
+  "status": "TEMP_without_narration",
+  "original_photos_preserved": true,
+  "files": [
+    {
+      "name": "captions_60s_TEMP.ass",
+      "bytes": 3334,
+      "sha256": "2f210413d40747e535b7d316e3b8fa6fb6232ad855cb6a05d4198cfeda1ee996"
+    },
+    {
+      "name": "captions_60s_TEMP.srt",
+      "bytes": 1136,
+      "sha256": "62fc3f186e5944c6761309086ddbcab4310ce541931c8700f15645694e873fa1"
+    },
+    {
+      "name": "captions_6s_TEMP.ass",
+      "bytes": 1559,
+      "sha256": "3a61701616fc17079014e57a88071919e394b3f4061626bb69bcd063e640e289"
+    },
+    {
+      "name": "captions_6s_TEMP.srt",
+      "bytes": 173,
+      "sha256": "b40406bc36ce0489faf153d88827b91403351320fe7d9b7ebcf8445e03902604"
+    },
+    {
+      "name": "contact_sheet.jpg",
+      "bytes": 353890,
+      "sha256": "c24cca24fa935a93b4b46415d00eab5ca8ad58907ee49792fed2609bae184f3c"
+    },
+    {
+      "name": "narration_script.txt",
+      "bytes": 1292,
+      "sha256": "868f3a9d02c9043856b44e8dd70bb9cd3508a12d16e4d82a8af50e8a6081fb60"
+    },
+    {
+      "name": "sacheon_cinematic_source.zip",
+      "bytes": 32721294,
+      "sha256": "760292401e7507a3d6c7d1fbfa6ec4307eed77ea052b84b939b0b0e0a837134d"
+    },
+    {
+      "name": "sacheon_thumbnail_TEMP.jpg",
+      "bytes": 90057,
+      "sha256": "b290b92cdb98c42b04c215ec59bb599702dfcbe34da186072aa083ce393ad8b1"
+    },
+    {
+      "name": "sacheon_trailer_60s_TEMP_1080p.mp4",
+      "bytes": 7549806,
+      "sha256": "f580c03cfb94661b8e8df27cb59014dd477ee2dd3a059895faf8a2fb780925cf"
+    },
+    {
+      "name": "sacheon_trailer_6s_TEMP_1080p.mp4",
+      "bytes": 1111848,
+      "sha256": "e7360f29977fdbe1cd01521323d400451a126f19553d59490e5b4f5110ab4aea"
+    },
+    {
+      "name": "verification_60s_TEMP.json",
+      "bytes": 5171,
+      "sha256": "dcebffa786f4ad00504bd59f27539b5fe29a4d1e3c40f6296f04a5eb0f8c215c"
+    },
+    {
+      "name": "verification_6s_TEMP.json",
+      "bytes": 5159,
+      "sha256": "c4551d49afe0891d7a07d004f0b504a2e2ca5d7fb2ffd1a51fbfe3eb72e30a30"
+    }
+  ]
+}

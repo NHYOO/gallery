@@ -1,0 +1,78 @@
+{
+  "duration": 60,
+  "fps": 24,
+  "opening_black_seconds": 3.0,
+  "narration_offset_seconds": 3.0,
+  "scene_timing_method": "actual phrase starts from local speech alignment, quantized to24fps",
+  "scenes": [
+    {
+      "id": "01",
+      "start": 3.0,
+      "end": 11.208333333333334,
+      "title": "2036 · 상상 속 조종석",
+      "disclosure": "AI 연출 · 상상 속2036",
+      "previous_media": "assets/01_future_cockpit.png"
+    },
+    {
+      "id": "02",
+      "start": 11.208333333333334,
+      "end": 21.458333333333332,
+      "title": "2026 · 사천에어쇼",
+      "disclosure": "실제 취재 사진·AJP YOO NA-HYUN",
+      "previous_media": [
+        "../assets/26_KakaoTalk_Photo_2026-10-26-15-33-45 005.jpg",
+        "../assets/26_KakaoTalk_Photo_2026-10-26-15-33-49 009.jpg",
+        "../assets/26_KakaoTalk_Photo_2026-10-26-15-33-55 013.jpg",
+        "../assets/26_KakaoTalk_Photo_2026-10-26-15-34-15 010.jpg"
+      ]
+    },
+    {
+      "id": "03",
+      "start": 21.458333333333332,
+      "end": 25.791666666666668,
+      "title": "KF-21 · 보라매",
+      "disclosure": "KF-21 설명 그래픽·자료사진 없음",
+      "previous_media": "assets/graphics/03_kf21.png"
+    },
+    {
+      "id": "04",
+      "start": 25.791666666666668,
+      "end": 33.0,
+      "title": "초음속 전투기 · 국산 AESA 레이더",
+      "disclosure": "KF-21 설명 그래픽·자료사진 없음",
+      "previous_media": "assets/graphics/04_features.png"
+    },
+    {
+      "id": "05",
+      "start": 33.0,
+      "end": 39.583333333333336,
+      "title": "2015 개발 착수 → 2022 첫 비행",
+      "disclosure": "KF-21 설명 그래픽·자료사진 없음",
+      "previous_media": "assets/graphics/05_timeline.png"
+    },
+    {
+      "id": "06",
+      "start": 39.583333333333336,
+      "end": 47.083333333333336,
+      "title": "함께 나는 미래를 상상하다",
+      "disclosure": "미래 기술 구상·개념 그래픽",
+      "previous_media": "assets/graphics/06_future.png"
+    },
+    {
+      "id": "07",
+      "start": 47.083333333333336,
+      "end": 53.166666666666664,
+      "title": "하늘을 준비하는 사람들",
+      "disclosure": "실제 취재 사진·AJP YOO NA-HYUN",
+      "previous_media": "../assets/26_KakaoTalk_Photo_2026-10-26-15-33-42 001.jpg"
+    },
+    {
+      "id": "08",
+      "start": 53.166666666666664,
+      "end": 60.0,
+      "title": "2026 사천에어쇼 · 하늘을 설계하다",
+      "disclosure": "캐릭터 일러스트·상상 속 화자",
+      "previous_media": "../assets/narrator_character.png"
+    }
+  ]
+}
