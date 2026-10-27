@@ -1,0 +1,11 @@
+{
+  "categories": {
+    "intro": ["wide_best.jpg"],
+    "kf21": ["kf21_verified_01.jpg", "kf21_verified_02.jpg"],
+    "aircraft": ["t50_verified.jpg", "kc330_verified.jpg", "other_aircraft.jpg"],
+    "eagles": ["black_eagles_01.jpg", "black_eagles_02.jpg", "black_eagles_03.jpg"],
+    "highlight": ["best_01.jpg", "best_02.jpg", "best_03.jpg"],
+    "ending": ["wide_best.jpg"]
+  },
+  "note": "Replace file names with your own verified photographs. Do not label a KF-21 based on AI guessing or a misleading filename. All files are relative to the --photos folder."
+}
