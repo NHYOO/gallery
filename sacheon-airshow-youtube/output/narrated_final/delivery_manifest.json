@@ -1,0 +1,62 @@
+{
+  "status": "FINAL_with_supplied_junho_narration",
+  "duration": 60,
+  "fps": 24,
+  "files": [
+    {
+      "name": "contact_sheet.jpg",
+      "bytes": 320251,
+      "sha256": "e9c83566a128119d7148f39653f369322a89f8670f10777fdcd19c89efa12dfe"
+    },
+    {
+      "name": "independent_qa.json",
+      "bytes": 4497,
+      "sha256": "f38a4ec9f42e8573af47f0d401acb709e88b03b0066bbecee87c431fa75ee153"
+    },
+    {
+      "name": "mixed_speech_recognition.json",
+      "bytes": 3328,
+      "sha256": "5421d68637ed0a1036a92c3193d5bcf0a7c3a23626b6600618a2aa42235187fc"
+    },
+    {
+      "name": "reused_scene_cache.zip",
+      "bytes": 4051606,
+      "sha256": "ab64ca7ef299253329886b7ad6ba2e7929fa1d1775c537aa962963e5f26bb062"
+    },
+    {
+      "name": "sacheon_trailer_junho_60s_1080p_24fps_FINAL.mp4",
+      "bytes": 6612141,
+      "sha256": "85991a782481c4f7d9c9f85ab1f24441f15adeca150bc642ec4ab3166d5c6138"
+    },
+    {
+      "name": "sacheon_trailer_junho_60s_24fps.ass",
+      "bytes": 3738,
+      "sha256": "cb8b786420c9456c00e8f45ff4090c95c0eb0f1f5fbbce9f41cf4b531a510461"
+    },
+    {
+      "name": "sacheon_trailer_junho_60s_24fps.srt",
+      "bytes": 1461,
+      "sha256": "f786ddcaa106558f23ad0fbd6d63ce9f791b760b0816602c4e4faf5b66731395"
+    },
+    {
+      "name": "source_speech_recognition.json",
+      "bytes": 3269,
+      "sha256": "fe415f55341e26a28a584a02676916e78bd3c1646c1b7cc07ddb08acd78d1403"
+    },
+    {
+      "name": "speech_alignment_audio_relative.json",
+      "bytes": 6166,
+      "sha256": "3f0084bbbbf2a014bca36661704b2de0f49ad7fab03b38453e91d4876cade56a"
+    },
+    {
+      "name": "subtitle_phrase_checks.json",
+      "bytes": 3951,
+      "sha256": "95008c835f3e61d45782244951c24d7cb6e796aa92825d048e2d3d1f494baaec"
+    },
+    {
+      "name": "verification_junho_final.json",
+      "bytes": 17068,
+      "sha256": "fe4d474f79b240f1048af7e39f6b6fcd0da02178d2163235373d7a61abb5b6ac"
+    }
+  ]
+}

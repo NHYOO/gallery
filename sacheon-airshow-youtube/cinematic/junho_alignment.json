@@ -1,0 +1,146 @@
+{
+  "segments": [
+    {
+      "start": 0,
+      "end": 1.27,
+      "text": "2036년.",
+      "timing_basis": "actual_audio_energy_phrase_boundaries_confirmed_against_native_whisper_segments"
+    },
+    {
+      "start": 1.97,
+      "end": 5.34,
+      "text": "저는 전투기 조종석에 앉아 하늘을 바라봅니다.",
+      "timing_basis": "actual_audio_energy_phrase_boundaries_confirmed_against_native_whisper_segments"
+    },
+    {
+      "start": 5.98,
+      "end": 7.56,
+      "text": "아직은 상상이에요.",
+      "timing_basis": "actual_audio_energy_phrase_boundaries_confirmed_against_native_whisper_segments"
+    },
+    {
+      "start": 8.21,
+      "end": 9.91,
+      "text": "제 꿈이 더 선명해진 건",
+      "timing_basis": "actual_audio_energy_phrase_boundaries_confirmed_against_native_whisper_segments"
+    },
+    {
+      "start": 10.02,
+      "end": 12.43,
+      "text": "2026 사천에어쇼에서였죠.",
+      "timing_basis": "actual_audio_energy_phrase_boundaries_confirmed_against_native_whisper_segments"
+    },
+    {
+      "start": 13.2,
+      "end": 15.3,
+      "text": "블랙이글스가 태극 문양을 그리고",
+      "timing_basis": "actual_audio_energy_phrase_boundaries_confirmed_against_native_whisper_segments"
+    },
+    {
+      "start": 15.48,
+      "end": 17.84,
+      "text": "KT-1과 T-50이 날아올랐어요.",
+      "timing_basis": "actual_audio_energy_phrase_boundaries_confirmed_against_native_whisper_segments"
+    },
+    {
+      "start": 18.44,
+      "end": 20.3,
+      "text": "그중 제 눈을 사로잡은 건",
+      "timing_basis": "actual_audio_energy_phrase_boundaries_confirmed_against_native_whisper_segments"
+    },
+    {
+      "start": 20.42,
+      "end": 22.09,
+      "text": "KF-21 보라매.",
+      "timing_basis": "actual_audio_energy_phrase_boundaries_confirmed_against_native_whisper_segments"
+    },
+    {
+      "start": 22.8,
+      "end": 25.42,
+      "text": "우리나라가 주도해 개발한 초음속 전투기로,",
+      "timing_basis": "actual_audio_energy_phrase_boundaries_confirmed_against_native_whisper_segments"
+    },
+    {
+      "start": 25.72,
+      "end": 29.37,
+      "text": "국산 AESA 레이더가 먼 곳의 표적을 탐지해요.",
+      "timing_basis": "actual_audio_energy_phrase_boundaries_confirmed_against_native_whisper_segments"
+    },
+    {
+      "start": 30.02,
+      "end": 32.57,
+      "text": "1,600여 차례의 개발 비행시험을 거쳐",
+      "timing_basis": "actual_audio_energy_phrase_boundaries_confirmed_against_native_whisper_segments"
+    },
+    {
+      "start": 32.78,
+      "end": 35.84,
+      "text": "올해 9월 첫 양산기가 공군에 인도됐죠.",
+      "timing_basis": "actual_audio_energy_phrase_boundaries_confirmed_against_native_whisper_segments"
+    },
+    {
+      "start": 36.59,
+      "end": 39.68,
+      "text": "앞으로는 지상 목표에 대응하는 능력을 넓히고,",
+      "timing_basis": "actual_audio_energy_phrase_boundaries_confirmed_against_native_whisper_segments"
+    },
+    {
+      "start": 39.92,
+      "end": 43.36,
+      "text": "무인기와 함께 임무를 수행하는 미래도 연구 중이래요.",
+      "timing_basis": "actual_audio_energy_phrase_boundaries_confirmed_against_native_whisper_segments"
+    },
+    {
+      "start": 44.09,
+      "end": 46.18,
+      "text": "비행기를 만드는 건 기술이지만,",
+      "timing_basis": "actual_audio_energy_phrase_boundaries_confirmed_against_native_whisper_segments"
+    },
+    {
+      "start": 46.4,
+      "end": 49.43,
+      "text": "그 기술을 앞으로 이끌어갈 건 사람일 거예요.",
+      "timing_basis": "actual_audio_energy_phrase_boundaries_confirmed_against_native_whisper_segments"
+    },
+    {
+      "start": 50.16,
+      "end": 50.94,
+      "text": "10년 뒤,",
+      "timing_basis": "actual_audio_energy_phrase_boundaries_confirmed_against_native_whisper_segments"
+    },
+    {
+      "start": 51.4,
+      "end": 53.77,
+      "text": "저는 어떤 하늘을 날고 있을까요?",
+      "timing_basis": "actual_audio_energy_phrase_boundaries_confirmed_against_native_whisper_segments"
+    }
+  ],
+  "metadata": {
+    "source": "/workspace/gallery/sacheon-airshow-youtube/assets/narration.mp3",
+    "source_sha256": "f35bd4ba12317a1bc8e3e42d69186b8ea75cba76dbd17f89ab7cb9864e6293fc",
+    "source_duration": 53.89061224489796,
+    "timebase": "seconds relative to source narration before placement; add 3.0 seconds for video",
+    "method": "Local sherpa-onnx 2.0.1 Whisper base multilingual int8 native ASR segment timestamps, split at measured phrase pauses",
+    "model_source": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-whisper-base.tar.bz2",
+    "external_audio_upload": false,
+    "paid_API_used": false,
+    "torch_installed": false,
+    "ASR_raw_results": "asr_raw.json",
+    "VAD_evidence": "voice_activity.json",
+    "timing_refinement": "20ms RMS windows /10ms hop; start -30ms and end +80ms display guards; quiet onset recovered from -55dB regions",
+    "editorial_normalizations": [
+      "2026-40,000 에어슈 → 2026 사천에어쇼",
+      "블랙이 글스 → 블랙이글스",
+      "KT1/T50/KF21 → KT-1/T-50/KF-21",
+      "보람회 → 보라매",
+      "인물을 수행 → 임무를 수행",
+      "Korean grammatical spelling and punctuation standardized"
+    ],
+    "synchronization_review": "Native ASR segments and actual speech/silence envelope reviewed; not a human listening certification of each phoneme",
+    "narration_content_difference_from_TEMP": "Actual recording follows original ZIP narration and includes 1600+ development flights and first production aircraft September delivery; last human-effort sentence differs from TEMP storyboard",
+    "narration_speed_pitch_changed": false,
+    "caption_count": 19,
+    "additional_segment_check": "All 19 final cue intervals independently re-transcribed from the actual source audio; no missing phrase or cross-cue sentence detected; technical/name spelling standardized against full-context pass.",
+    "independent_phrase_asr_checks": "phrase_asr_checks.json"
+  }
+}

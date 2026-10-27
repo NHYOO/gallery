@@ -1,0 +1,448 @@
+{
+  "status": "rendered_with_supplied_junho_narration",
+  "file": "/workspace/gallery/sacheon-airshow-youtube/output/narrated_final/sacheon_trailer_junho_60s_1080p_24fps_FINAL.mp4",
+  "duration_seconds": 60.0,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "frames": 1440,
+  "aspect_ratio": "16:9",
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "audio_sample_rate": 48000,
+  "audio_channels": 2,
+  "full_stream_decode": "passed",
+  "decoded_audio_peak_dbfs": -1.2064966469621365,
+  "preserved_input_count": 59,
+  "originals_and_previous_exports_unchanged": true,
+  "visuals": "Existing scene clips reused; opening black and speech-based timing edit only",
+  "captions": {
+    "language": "ko",
+    "burned_in": true,
+    "srt": true,
+    "cue_count": 19,
+    "source_offset_seconds": 3.0,
+    "timing_basis": {
+      "source": "/workspace/gallery/sacheon-airshow-youtube/assets/narration.mp3",
+      "source_sha256": "f35bd4ba12317a1bc8e3e42d69186b8ea75cba76dbd17f89ab7cb9864e6293fc",
+      "source_duration": 53.89061224489796,
+      "timebase": "seconds relative to source narration before placement; add 3.0 seconds for video",
+      "method": "Local sherpa-onnx 2.0.1 Whisper base multilingual int8 native ASR segment timestamps, split at measured phrase pauses",
+      "model_source": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-whisper-base.tar.bz2",
+      "external_audio_upload": false,
+      "paid_API_used": false,
+      "torch_installed": false,
+      "ASR_raw_results": "asr_raw.json",
+      "VAD_evidence": "voice_activity.json",
+      "timing_refinement": "20ms RMS windows /10ms hop; start -30ms and end +80ms display guards; quiet onset recovered from -55dB regions",
+      "editorial_normalizations": [
+        "2026-40,000 에어슈 → 2026 사천에어쇼",
+        "블랙이 글스 → 블랙이글스",
+        "KT1/T50/KF21 → KT-1/T-50/KF-21",
+        "보람회 → 보라매",
+        "인물을 수행 → 임무를 수행",
+        "Korean grammatical spelling and punctuation standardized"
+      ],
+      "synchronization_review": "Native ASR segments and actual speech/silence envelope reviewed; not a human listening certification of each phoneme",
+      "narration_content_difference_from_TEMP": "Actual recording follows original ZIP narration and includes 1600+ development flights and first production aircraft September delivery; last human-effort sentence differs from TEMP storyboard",
+      "narration_speed_pitch_changed": false,
+      "caption_count": 19,
+      "additional_segment_check": "All 19 final cue intervals independently re-transcribed from the actual source audio; no missing phrase or cross-cue sentence detected; technical/name spelling standardized against full-context pass.",
+      "independent_phrase_asr_checks": "phrase_asr_checks.json"
+    }
+  },
+  "mix": {
+    "sample_rate": 48000,
+    "channels": 2,
+    "duration": 60.0,
+    "narration": {
+      "source": "/workspace/gallery/sacheon-airshow-youtube/assets/narration.mp3",
+      "start": 3.0,
+      "end": 56.890625,
+      "decoded_duration": 53.890625,
+      "decoded_samples": 2586750,
+      "pitch_changed": false,
+      "speed_changed": false,
+      "source_samples_retained": true,
+      "gain_db": 3.530000000000001,
+      "source_loudness": {
+        "integrated_lufs": -21.53,
+        "true_peak_dbtp": -1.61,
+        "loudness_range_lu": 4.3
+      }
+    },
+    "mix": {
+      "loudness": {
+        "integrated_lufs": -16.01,
+        "true_peak_dbtp": -1.2,
+        "loudness_range_lu": 5.5
+      },
+      "master_gain_db": 1.8900000000000006,
+      "sample_peak_dbfs": -1.200122616219588,
+      "narration_over_background_rms_db": 12.801642995603356,
+      "music_duck_at_speech_db": -14,
+      "effects_duck_at_speech_db": -18,
+      "pause_music_recovery_db": 14,
+      "pause_seconds_detected": 2.078145833333333
+    },
+    "effect_events": [
+      {
+        "source": "rumble",
+        "start": 0.0,
+        "end": 3.8,
+        "role": "opening_engine_rise"
+      },
+      {
+        "source": "rumble",
+        "start": 21.458333333333332,
+        "end": 26.05833333333333,
+        "role": "KF-21_explanatory_graphic"
+      },
+      {
+        "source": "flyby",
+        "start": 15.308333333333334,
+        "end": 22.358333333333334,
+        "pass_center": 17.358333333333334,
+        "role": "photo_formation_passage",
+        "source_peak_offset_seconds": 2.0500000000000003,
+        "pan": "left_to_right"
+      }
+    ],
+    "provided_cue_count": 19,
+    "paths": {
+      "voice_stem": "/workspace/gallery/work/narrated_final/render/audio/voice_stem.wav",
+      "bed_stem": "/workspace/gallery/work/narrated_final/render/audio/bed_stem.wav",
+      "sfx_stem": "/workspace/gallery/work/narrated_final/render/audio/sfx_stem.wav",
+      "master": "/workspace/gallery/work/narrated_final/render/audio/final_mix.wav",
+      "destination": "/workspace/gallery/work/narrated_final/render/final_mix.wav"
+    },
+    "source_sha256": {
+      "/workspace/gallery/sacheon-airshow-youtube/assets/narration.mp3": "f35bd4ba12317a1bc8e3e42d69186b8ea75cba76dbd17f89ab7cb9864e6293fc",
+      "/workspace/gallery/sacheon-airshow-youtube/assets/mixkit-aircraft-flyby-3170.wav": "79a96323493d40066a57c0556fc8e6c82e9687f4bc5a5546c7944f01dbbc8484",
+      "/workspace/gallery/sacheon-airshow-youtube/assets/mixkit-jet-plane-flying-rumble-1587.wav": "48c7868e56bd504c7fc0146d021a695609665b41a1609616d7443c5b36bd0e50",
+      "/workspace/gallery/work/cinematic_60s_TEMP/original_music_and_sfx.wav": "953ce42d6d48456878970c00b0e13a159a2f2e2ac66ddcdac0eafcef54afabc8"
+    },
+    "source_files_unchanged": true,
+    "method": "Existing procedural score + supplied audio; voice RMS look-ahead ducking; amplitude-only true-peak control"
+  },
+  "scenes": [
+    {
+      "id": "01",
+      "start": 3.0,
+      "end": 11.208333333333334,
+      "title": "2036 · 상상 속 조종석",
+      "disclosure": "AI 연출 · 상상 속2036",
+      "previous_media": "assets/01_future_cockpit.png"
+    },
+    {
+      "id": "02",
+      "start": 11.208333333333334,
+      "end": 21.458333333333332,
+      "title": "2026 · 사천에어쇼",
+      "disclosure": "실제 취재 사진·AJP YOO NA-HYUN",
+      "previous_media": [
+        "../assets/26_KakaoTalk_Photo_2026-10-26-15-33-45 005.jpg",
+        "../assets/26_KakaoTalk_Photo_2026-10-26-15-33-49 009.jpg",
+        "../assets/26_KakaoTalk_Photo_2026-10-26-15-33-55 013.jpg",
+        "../assets/26_KakaoTalk_Photo_2026-10-26-15-34-15 010.jpg"
+      ]
+    },
+    {
+      "id": "03",
+      "start": 21.458333333333332,
+      "end": 25.791666666666668,
+      "title": "KF-21 · 보라매",
+      "disclosure": "KF-21 설명 그래픽·자료사진 없음",
+      "previous_media": "assets/graphics/03_kf21.png"
+    },
+    {
+      "id": "04",
+      "start": 25.791666666666668,
+      "end": 33.0,
+      "title": "초음속 전투기 · 국산 AESA 레이더",
+      "disclosure": "KF-21 설명 그래픽·자료사진 없음",
+      "previous_media": "assets/graphics/04_features.png"
+    },
+    {
+      "id": "05",
+      "start": 33.0,
+      "end": 39.583333333333336,
+      "title": "2015 개발 착수 → 2022 첫 비행",
+      "disclosure": "KF-21 설명 그래픽·자료사진 없음",
+      "previous_media": "assets/graphics/05_timeline.png"
+    },
+    {
+      "id": "06",
+      "start": 39.583333333333336,
+      "end": 47.083333333333336,
+      "title": "함께 나는 미래를 상상하다",
+      "disclosure": "미래 기술 구상·개념 그래픽",
+      "previous_media": "assets/graphics/06_future.png"
+    },
+    {
+      "id": "07",
+      "start": 47.083333333333336,
+      "end": 53.166666666666664,
+      "title": "하늘을 준비하는 사람들",
+      "disclosure": "실제 취재 사진·AJP YOO NA-HYUN",
+      "previous_media": "../assets/26_KakaoTalk_Photo_2026-10-26-15-33-42 001.jpg"
+    },
+    {
+      "id": "08",
+      "start": 53.166666666666664,
+      "end": 60.0,
+      "title": "2026 사천에어쇼 · 하늘을 설계하다",
+      "disclosure": "캐릭터 일러스트·상상 속 화자",
+      "previous_media": "../assets/narrator_character.png"
+    }
+  ],
+  "ffprobe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "width": 1920,
+        "height": 1080,
+        "coded_width": 1920,
+        "coded_height": 1080,
+        "closed_captions": 0,
+        "film_grain": 0,
+        "has_b_frames": 2,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "16:9",
+        "pix_fmt": "yuv420p",
+        "level": 40,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "refs": 1,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "time_base": "1/12288",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 737280,
+        "duration": "60.000000",
+        "bit_rate": "617670",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "1440",
+        "extradata_size": 47,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "vendor_id": "[0][0][0][0]",
+          "encoder": "Lavc61.19.101 libx264"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 2880000,
+        "duration": "60.000000",
+        "bit_rate": "258128",
+        "nb_frames": "2814",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler",
+          "vendor_id": "[0][0][0][0]"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/workspace/gallery/sacheon-airshow-youtube/output/narrated_final/sacheon_trailer_junho_60s_1080p_24fps_FINAL.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "60.000000",
+      "size": "6612141",
+      "bit_rate": "881618",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf61.7.103"
+      }
+    }
+  },
+  "independent_qa": {
+    "status": "independent_checks_passed",
+    "file": "/workspace/gallery/sacheon-airshow-youtube/output/narrated_final/sacheon_trailer_junho_60s_1080p_24fps_FINAL.mp4",
+    "container_duration": 60.0,
+    "video_duration": 60.0,
+    "audio_duration": 60.0,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": "24/1",
+    "frames": 1440,
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "audio_sample_rate": "48000",
+    "audio_channels": 2,
+    "preserved_snapshot_files": 59,
+    "preserved_files_changed": [],
+    "voice_offset_seconds": 3.0,
+    "decoded_source_samples": 2586750,
+    "decoded_source_duration": 53.890625,
+    "voice_entire_end_seconds": 56.890625,
+    "normalized_voice_sample_count_matches_source": true,
+    "voice_stem_is_full_normalized_source_at_exact_offset": true,
+    "source_to_amplitude_processed_voice_correlation": 0.993691463413245,
+    "aac_early_middle_last_speech_correlation_checks": [
+      {
+        "source_interval": [
+          2.1,
+          4.8
+        ],
+        "correlation": 0.978761126102668,
+        "lag_samples": 0,
+        "lag_ms": 0.0
+      },
+      {
+        "source_interval": [
+          24,
+          26.5
+        ],
+        "correlation": 0.9630535006095817,
+        "lag_samples": 0,
+        "lag_ms": 0.0
+      },
+      {
+        "source_interval": [
+          51.5,
+          53.5
+        ],
+        "correlation": 0.9424691879901654,
+        "lag_samples": 0,
+        "lag_ms": 0.0
+      }
+    ],
+    "audio_peak_dbfs": -1.2064967155456543,
+    "encoded_audio_loudness": {
+      "integrated_lufs": -16.02,
+      "true_peak_dbtp": -1.21,
+      "lra": 5.5
+    },
+    "notes": [
+      "Supplied voice retained throughout, amplitude-only gain/limiting; no time or pitch conversion in code.",
+      "PCM raw decoder can expose AAC trailing padding; track presentation duration is exactly60.000s.",
+      "ASR/VAD subtitle review is not a human phoneme-by-phoneme listening certification."
+    ],
+    "independent_visual_review": {
+      "checked_frames_seconds": [
+        20,
+        28,
+        57.5
+      ],
+      "korean_glyphs": "correct",
+      "lower_center_captions": "readable; white with outline; no clipping",
+      "ending_character_head_and_shoes": "fully visible",
+      "ending_title_and_photo_credit": "visible",
+      "old_TEMP_label": "not present"
+    },
+    "mixed_audio_asr_comparison": {
+      "method": "Same local multilingual ASR on original versus final mixed AAC; content unchanged except small model recognition variations",
+      "blocks": [
+        {
+          "source_offset": 0,
+          "normalized_transcript_similarity": 0.9882352941176471,
+          "source_text": "2036년 저는 전투기 조종석에 앉아 하늘을 바라봅니다. 아직은 상상이에요. 제 꿈이 더 선명해진 건 2026-40,000 에어슈에서 였죠. 블랙이 글스가 태극 문양을 그리고 KT1과 T50이 날아올랐어요.",
+          "mixed_text": "2036년 저는 전투기 조종석에 앉아 하늘을 바라봅니다. 아직은 상상이에요. 제 꿈이 더 선명해진 건 2026-40,000 에어슈에서 였죠. 블랙이 글스가 태극 문연을 그리고 KT1과 T50이 날아올랐어요."
+        },
+        {
+          "source_offset": 18.1,
+          "normalized_transcript_similarity": 0.9886363636363636,
+          "source_text": "그중 제 눈을 사로잡은 건 KF21 보람회 우리나라가 주도에 개발한 초음속 전투기로 국산 AESA 레이더가 먼 곳의 표적을 탐지해요 1600여 차례에 개발 비행시험을 거쳐 올해 9월 첫 양산기가 공군에 인도됐죠",
+          "mixed_text": "그중 제 눈을 사로잡은 건 KF21 보람에 우리나라가 주도에 개발한 초음속 전투기로 국산 AESA 레이더가 먼 곳의 표적을 탐지해요 1600여 차례에 개발 비행 시험을 거쳐 올해 9월 첫 양산기가 공군에 인도됐죠"
+        },
+        {
+          "source_offset": 36.1,
+          "normalized_transcript_similarity": 1.0,
+          "source_text": "앞으로는 지상 목표에 대응하는 능력을 넓히고 무인기와 함께 인물을 수행하는 미래도 연구 중이래요. 비행기를 만드는 건 기술이지만 그 기술을 앞으로 이끌어갈 건 사람일 거예요. 10년 뒤 저는 어떤 하늘을 날고 있을까요?",
+          "mixed_text": "앞으로는 지상목표에 대응하는 능력을 넓히고 무인기와 함께 인물을 수행하는 미래도 연구중이래요. 비행기를 만드는 건 기술이지만 그 기술을 앞으로 이끌어갈 건 사람일 거예요. 10년 뒤 저는 어떤 하늘을 날고 있을까요?"
+        }
+      ]
+    }
+  },
+  "visual_review": {
+    "hangul_glyphs": "passed",
+    "caption_safe_area": "passed",
+    "old_TEMP_label_removed": true,
+    "first_3_seconds": "black",
+    "ending_title_and_photo_credit": "visible"
+  }
+}
