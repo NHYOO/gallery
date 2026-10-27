@@ -1,0 +1,40 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Voice,Noto Sans KR,42,&H00FFFFFF,&H000000FF,&H00100B06,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,120,120,83,1
+Style: Title,Noto Sans KR,46,&H00F7F2EA,&H000000FF,&H0020180B,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,122,120,158,1
+Style: Disclosure,Noto Sans KR,25,&H00D8DDDC,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,9,120,120,65,1
+Style: Status,Noto Sans KR,26,&H008EC3E9,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,7,120,120,65,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:01:00.00,Status,,0,0,0,,임시본 · 한국어 내레이션 미포함
+Dialogue: 0,0:00:00.00,0:00:07.00,Disclosure,,0,0,0,,AI 연출 · 상상 속2036
+Dialogue: 0,0:00:00.15,0:00:03.50,Title,,0,0,0,,{\fad(180,200)}2036 · 상상 속 조종석
+Dialogue: 0,0:00:07.00,0:00:18.00,Disclosure,,0,0,0,,실제 취재 사진·AJP YOO NA-HYUN
+Dialogue: 0,0:00:07.15,0:00:10.50,Title,,0,0,0,,{\fad(180,200)}2026 · 사천에어쇼
+Dialogue: 0,0:00:18.00,0:00:23.00,Disclosure,,0,0,0,,KF-21 설명 그래픽·자료사진 없음
+Dialogue: 0,0:00:23.00,0:00:32.00,Disclosure,,0,0,0,,KF-21 설명 그래픽·자료사진 없음
+Dialogue: 0,0:00:32.00,0:00:41.00,Disclosure,,0,0,0,,KF-21 설명 그래픽·자료사진 없음
+Dialogue: 0,0:00:41.00,0:00:51.00,Disclosure,,0,0,0,,미래 기술 구상·개념 그래픽
+Dialogue: 0,0:00:51.00,0:00:56.00,Disclosure,,0,0,0,,실제 취재 사진·AJP YOO NA-HYUN
+Dialogue: 0,0:00:51.15,0:00:54.50,Title,,0,0,0,,{\fad(180,200)}하늘을 준비하는 사람들
+Dialogue: 0,0:00:56.00,0:01:00.00,Disclosure,,0,0,0,,캐릭터 일러스트·상상 속 화자
+Dialogue: 0,0:00:00.60,0:00:06.20,Voice,,0,0,0,,2036년, 상상 속 저는 조종석에 앉아 있어요.
+Dialogue: 0,0:00:07.50,0:00:12.30,Voice,,0,0,0,,제 꿈이 선명해진 건, 사천에어쇼에서였어요.
+Dialogue: 0,0:00:12.60,0:00:17.50,Voice,,0,0,0,,블랙이글스가 펼친 하늘을 아직도 기억해요.
+Dialogue: 0,0:00:18.30,0:00:22.70,Voice,,0,0,0,,제가 더 알고 싶어진 전투기는 케이에프 이십일.
+Dialogue: 0,0:00:23.30,0:00:27.10,Voice,,0,0,0,,우리나라가 주도해 개발한 초음속 전투기예요.
+Dialogue: 0,0:00:27.40,0:00:31.70,Voice,,0,0,0,,에이사 레이더는 전파로 멀리 있는 표적을 찾아요.
+Dialogue: 0,0:00:32.30,0:00:36.20,Voice,,0,0,0,,2015년 개발을 시작해, 설계가 현실이 됐죠.
+Dialogue: 0,0:00:36.50,0:00:40.70,Voice,,0,0,0,,2022년 첫 비행이 새로운 가능성을 열었어요.
+Dialogue: 0,0:00:41.40,0:00:45.80,Voice,,0,0,0,,앞으로는 무인기와 함께 나는 하늘도 꿈꿔요.
+Dialogue: 0,0:00:46.10,0:00:50.50,Voice,,0,0,0,,아직은 미래 구상이지만, 더 넓은 도전이겠죠.
+Dialogue: 0,0:00:51.25,0:00:55.75,Voice,,0,0,0,,하늘을 준비하는 사람들 곁에 저도 서고 싶어요.
+Dialogue: 0,0:00:56.10,0:00:59.55,Voice,,0,0,0,,10년 뒤, 저는 어떤 하늘을 날고 있을까요?

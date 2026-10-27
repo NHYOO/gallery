@@ -1,0 +1,23 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Voice,Noto Sans KR,42,&H00FFFFFF,&H000000FF,&H00100B06,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,120,120,83,1
+Style: Title,Noto Sans KR,46,&H00F7F2EA,&H000000FF,&H0020180B,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,122,120,158,1
+Style: Disclosure,Noto Sans KR,25,&H00D8DDDC,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,9,120,120,65,1
+Style: Status,Noto Sans KR,26,&H008EC3E9,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,7,120,120,65,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:06.00,Status,,0,0,0,,임시본 · 한국어 내레이션 미포함
+Dialogue: 0,0:00:00.00,0:00:03.00,Disclosure,,0,0,0,,AI 연출 · 상상 속2036
+Dialogue: 0,0:00:00.15,0:00:02.70,Title,,0,0,0,,{\fad(180,200)}2036 · 상상 속 조종석
+Dialogue: 0,0:00:03.00,0:00:06.00,Disclosure,,0,0,0,,실제 취재 사진·AJP YOO NA-HYUN
+Dialogue: 0,0:00:03.15,0:00:05.70,Title,,0,0,0,,{\fad(180,200)}2026 · 사천에어쇼
+Dialogue: 0,0:00:00.40,0:00:02.80,Voice,,0,0,0,,2036년, 조종석에 앉은 나를 상상해요.
+Dialogue: 0,0:00:03.40,0:00:05.80,Voice,,0,0,0,,그 꿈은 2026 사천에어쇼에서 시작됐어요.
